@@ -1,0 +1,99 @@
+.FullPost {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Edit {
+
+}
+
+.Edit label {
+    display: block;
+    color: grey;
+}
+
+.Edit button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #fa923f;
+}
+
+.Edit button:hover,
+.Edit button:active {
+    color: #521751;
+}
+
+.Edit button.Delete {
+    color: red;
+}
+
+.Edit button.Delete:hover,
+.Edit button.Delete:active {
+    color: darkred;
+}
+
+.Loader,
+.Loader:before,
+.Loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.Loader {
+  color: salmon;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.Loader:before,
+.Loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.Loader:before {
+  left: -3.5em;
+  background: #fff;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.Loader:after {
+  left: 3.5em;
+  background: #fff;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
